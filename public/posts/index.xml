@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on About Computers</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on About Computers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Sep 2024 03:35:19 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 10 Sep 2024 03:35:19 -0700</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;suck iiiit forever&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two Things Together</title>
+      <link>http://localhost:1313/posts/two-things-together/</link>
+      <pubDate>Tue, 01 May 2018 03:35:19 -0700</pubDate>
+      <guid>http://localhost:1313/posts/two-things-together/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s May and it&amp;rsquo;s just spring here, which is the right time to write to you about a particular folk song. It&amp;rsquo;s a May Day song, really, the Old May Day, a song for long days and the beginning of summer.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a song about getting up before everyone else&#xA;and feeling full of yourself over it.&#xA;It&amp;rsquo;s a song about a warm morning.&lt;/p&gt;&#xA;&lt;p&gt;It also shares a verse with As You Like It, which is real weird. It&amp;rsquo;s weird enough to talk about.&#xA;[Take no scorn to wear the horn\ it was your crest when you were born\ Your father&amp;rsquo;s father wore it\ And your father wore it tooThe song is Hal-an-Tow.&#xA;(This links to a youtube video with a timestamp; it may not get to the right place on mobile. The time I mean to link you to is 13 minutes and 12 seconds.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Telegraphs</title>
+      <link>http://localhost:1313/posts/about-telegraphs/</link>
+      <pubDate>Mon, 19 Feb 2018 03:35:19 -0700</pubDate>
+      <guid>http://localhost:1313/posts/about-telegraphs/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the thing about telegraphs:&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, telegraph operators had bad days.&#xA;This was usually for mundane reasons. A telegraph pole down. Electrical failures: too much current, burnt wire insulation, or maybe over-curious sheep near the ground return.&lt;/p&gt;&#xA;&lt;p&gt;On September 2nd, 1859, many telegraph operators had a worse-than-usual day.&lt;/p&gt;&#xA;&lt;p&gt;It looked like this:&lt;/p&gt;&#xA;&lt;p&gt;[An image of a drawing of bright sunspots]&lt;/p&gt;&#xA;&lt;p&gt;That is how the astronomer Richard Carrington drew a truly immense solar storm. It was the kind of thing that would kill all of the electric grids, everywhere, should it hit today.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
