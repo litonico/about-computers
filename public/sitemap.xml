@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://litonico.github.io/</loc>
+    <loc>https://litonico.github.io/about-computers/</loc>
     <lastmod>2019-12-23T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/posts/looking-at-computers/</loc>
+    <loc>https://litonico.github.io/about-computers/posts/looking-at-computers/</loc>
     <lastmod>2019-12-23T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/posts/</loc>
+    <loc>https://litonico.github.io/about-computers/posts/</loc>
     <lastmod>2019-12-23T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/posts/two-things-together/</loc>
+    <loc>https://litonico.github.io/about-computers/posts/two-things-together/</loc>
     <lastmod>2018-05-01T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/posts/about-telegraphs/</loc>
+    <loc>https://litonico.github.io/about-computers/posts/about-telegraphs/</loc>
     <lastmod>2018-02-19T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/posts/arrays/</loc>
+    <loc>https://litonico.github.io/about-computers/posts/arrays/</loc>
     <lastmod>2018-02-12T03:35:19-07:00</lastmod>
   </url><url>
-    <loc>https://litonico.github.io/categories/</loc>
+    <loc>https://litonico.github.io/about-computers/categories/</loc>
   </url><url>
-    <loc>https://litonico.github.io/tags/</loc>
+    <loc>https://litonico.github.io/about-computers/tags/</loc>
   </url>
 </urlset>

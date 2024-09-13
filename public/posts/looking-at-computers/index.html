@@ -8,7 +8,7 @@ This involves a clever and litigious company, trademark law, a microscope, nitri
 Here&rsquo;s the thing about gameboys:
 " />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="https://litonico.github.io/posts/looking-at-computers/">
+	<meta property="og:url" content="https://litonico.github.io/about-computers/posts/looking-at-computers/">
   <meta property="og:site_name" content="About Computers by lito">
   <meta property="og:title" content="Looking at Computers">
   <meta property="og:description" content="First: my wholehearted thank you to Luna. I could not have written this without her help. Go follow her blog for good writing about computers.
@@ -29,11 +29,11 @@ This involves a clever and litigious company, trademark law, a microscope, nitri
 Here’s the thing about gameboys:">
 
 	
-        <link href="https://litonico.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="https://litonico.github.io/about-computers/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://litonico.github.io/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://litonico.github.io/about-computers/css/main.5cebd7d4fb2b97856af8d32a6def16164fcf7d844e98e236fcb3559655020373.css" />
 
 	
 	
@@ -69,14 +69,14 @@ Here’s the thing about gameboys:">
 <p>It turns out you can learn a lot from computers just by looking at them.</p>
 <p>This involves a clever and litigious company, trademark law, a microscope, nitric acid, and one very dedicated materials science student.</p>
 <p>Here&rsquo;s the thing about gameboys:</p>
-<p><img src="/jbareham_gameboy.jpg" alt="Gameboy on a red background"></p>
+<p><img src="https://litonico.github.io/about-computers/jbareham_gameboy.jpg" alt="Gameboy on a red background"></p>
 <p>When a Nintendo Game Boy boots up, the Nintendo® logo scrolls down the screen. There&rsquo;s a little <em>ba-ding!</em> when it hits center screen. (If you&rsquo;ve held a gameboy, the sound it makes is playing in your head right now. If not, you can listen to it <a href="https://www.youtube.com/watch?v=3bCT3YxZfAY">here</a>, to get in the mood.)</p>
 <p>You&rsquo;ve put a game in your gameboy, so you then go on and play the game. But what I want to talk about first is the scroll and the sound and what happens right, right after.</p>
 <p>The routine that does the scroll and the <em>*ba-ding!*</em> is encoded in the gameboy&rsquo;s ROM, its read-only memory. There&rsquo;s one dedicated little chip full of Z80 instructions inside the gameboy that does that. One chip, just for the scroll and the sound! After that small fanfare, the ROM will jump to the actual game you&rsquo;ve put in.</p>
 <hr>
 <p>So what&rsquo;s this <em>for</em>?</p>
 <p>That chip—that bootrom—has a copy of the Nintendo logo, but it doesn&rsquo;t draw it on screen.</p>
-<p><img src="/nintendo_gb_logo.png" alt="Nintendo logo"></p>
+<p><img src="https://litonico.github.io/about-computers/nintendo_gb_logo.png" alt="Nintendo logo"></p>
 <p>Instead, it looks at a particular memory location in the game cartridge (say, Pokémon Red) and draws whatever data is there as the logo. The little pixely ®, by the way, lives on the bootrom, not on the cartridge.</p>
 <p>When this bootrom finishes scrolling, it checks value-by-value that what was drawn on the screen is the Nintendo logo. If the logo was pixel-by-pixel identical to the one in the bootrom, the game will continue to boot. If the cart doesn&rsquo;t contain the Nintendo logo, the gameboy freezes. (It doesn&rsquo;t even <code>STOP</code>, in the language of hardware user manuals and programming guides. It just loops forever.)</p>
 <p>The ROM checks against the Nintendo logo because that logo is a trademark of Nintendo. To get the gameboy to run your game, you needed to put the actual bytes of an actual picture of the Nintendo logo in your game. And if you included the Nintendo logo in your cartridge, but weren&rsquo;t officially licensed by Nintendo, they could sue you for trademark infringement.</p>
@@ -104,9 +104,9 @@ Emulator developers had written their own bootroms that jumped straight into the
 <p>It probably smelled awful.</p>
 <hr>
 <p>If you&rsquo;d like to take a look yourself, <a href="https://www.neviksti.com/DMG/">here</a> are neviksti&rsquo;s own microscope pictures that show the decapsulated chip. You can barely see the bootrom, a tiny strip of silicon near the middle.</p>
-<p><img src="/DMG_overview.png" alt="Decapulsated gameboy CPU"></p>
+<p><img src="https://litonico.github.io/about-computers/DMG_overview.png" alt="Decapulsated gameboy CPU"></p>
 <p>This is &ldquo;masked rom,&rdquo; popular in the earlier days of circuit-board computers. It takes up a lot of space, but it&rsquo;s dead simple to manufacture. Each dot of solder represents a <code>1</code>, and a blank space represents a <code>0</code>. You can read the computer&rsquo;s memory just by looking at it!</p>
-<p><img src="/DMG_ROM_1.jpg" alt="Decapulsated gameboy bootrom"></p>
+<p><img src="https://litonico.github.io/about-computers/DMG_ROM_1.jpg" alt="Decapulsated gameboy bootrom"></p>
 <p>It&rsquo;s read bottom to top, left to right. Can you see where the blobs start? The first sequence of bits is <code>01001001</code>, and the second is <code>01101110</code>.</p>
 <p>Here, the author <a href="https://www.neviksti.com/DMG/DMG_ROM.txt">transcribed the entire thing</a>. Open that in another tab, if you&rsquo;d like, so you can follow along.</p>
 <p>Now, none of these bytes are sensical Gameboy CPU instructions. The next thing to do is determine how the CPU reads this memory. It could be from left to right, or in columns, or interleaved. The author never wrote how he figured this part out — he only noted, with an engineer&rsquo;s knack for understatement, that it should have taken him much longer than it did.</p>

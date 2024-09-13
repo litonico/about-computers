@@ -1,4 +1,5 @@
-baseURL = 'https://litonico.github.io/'
+baseURL = 'https://litonico.github.io/about-computers'
 languageCode = 'en-us'
 title = 'About Computers by lito'
 theme = 'archie'
+canonifyURLs = true
