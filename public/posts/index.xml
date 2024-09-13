@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on About Computers</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on About Computers</description>
+    <title>Posts on About Computers by lito</title>
+    <link>https://litonico.github.io/posts/</link>
+    <description>Recent content in Posts on About Computers by lito</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 03:35:19 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Dec 2019 03:35:19 -0700</lastBuildDate>
+    <atom:link href="https://litonico.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Looking at Computers</title>
+      <link>https://litonico.github.io/posts/looking-at-computers/</link>
+      <pubDate>Mon, 23 Dec 2019 03:35:19 -0700</pubDate>
+      <guid>https://litonico.github.io/posts/looking-at-computers/</guid>
+      <description>&lt;p&gt;&lt;em&gt;First: my wholehearted thank you to &lt;a href=&#34;https://moonbase.lgbt/&#34;&gt;Luna&lt;/a&gt;. I could not have written this without her help. Go follow her blog for good writing about computers.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It turns out you can learn a lot from computers just by looking at them.&lt;/p&gt;&#xA;&lt;p&gt;This involves a clever and litigious company, trademark law, a microscope, nitric acid, and one very dedicated materials science student.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the thing about gameboys:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://litonico.github.io/jbareham_gameboy.jpg&#34; alt=&#34;Gameboy on a red background&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Two Things Together</title>
-      <link>http://localhost:1313/posts/two-things-together/</link>
+      <link>https://litonico.github.io/posts/two-things-together/</link>
       <pubDate>Tue, 01 May 2018 03:35:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/two-things-together/</guid>
+      <guid>https://litonico.github.io/posts/two-things-together/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s May and it&amp;rsquo;s just spring here, which is the right time to write to you about a particular folk song. It&amp;rsquo;s a May Day song, really, the Old May Day, a song for long days and the beginning of summer.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a song about getting up before everyone else and feeling full of yourself over it. It&amp;rsquo;s a song about a warm morning.&lt;/p&gt;&#xA;&lt;p&gt;It also shares a verse with As You Like It, which is real weird. It&amp;rsquo;s weird enough to talk about.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Telegraphs</title>
-      <link>http://localhost:1313/posts/about-telegraphs/</link>
+      <link>https://litonico.github.io/posts/about-telegraphs/</link>
       <pubDate>Mon, 19 Feb 2018 03:35:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/about-telegraphs/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s the thing about telegraphs:&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, telegraph operators had bad days.&#xA;This was usually for mundane reasons. A telegraph pole down. Electrical failures: too much current, burnt wire insulation, or maybe over-curious sheep near the ground return.&lt;/p&gt;&#xA;&lt;p&gt;On September 2nd, 1859, many telegraph operators had a worse-than-usual day.&lt;/p&gt;&#xA;&lt;p&gt;It looked like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/telegraphs_img_1.jpg&#34; alt=&#34;An image of a drawing of bright sunspots&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;That is how the astronomer Richard Carrington drew a truly immense solar storm. It was the kind of thing that would kill all of the electric grids, everywhere, should it hit today.&lt;/p&gt;</description>
+      <guid>https://litonico.github.io/posts/about-telegraphs/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the thing about telegraphs:&lt;/p&gt;&#xA;&lt;p&gt;Sometimes, telegraph operators had bad days.&#xA;This was usually for mundane reasons. A telegraph pole down. Electrical failures: too much current, burnt wire insulation, or maybe over-curious sheep near the ground return.&lt;/p&gt;&#xA;&lt;p&gt;On September 2nd, 1859, many telegraph operators had a worse-than-usual day.&lt;/p&gt;&#xA;&lt;p&gt;It looked like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://litonico.github.io/telegraphs_img_1.jpg&#34; alt=&#34;An image of a drawing of bright sunspots&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;That is how the astronomer Richard Carrington drew a truly immense solar storm. It was the kind of thing that would kill all of the electric grids, everywhere, should it hit today.&lt;/p&gt;</description>
     </item>
     <item>
       <title>All Of The Things That You Can Do With Arrays</title>
-      <link>http://localhost:1313/posts/arrays/</link>
+      <link>https://litonico.github.io/posts/arrays/</link>
       <pubDate>Mon, 12 Feb 2018 03:35:19 -0700</pubDate>
-      <guid>http://localhost:1313/posts/arrays/</guid>
-      <description>&lt;p&gt;Here’s the thing about computers:&lt;/p&gt;&#xA;&lt;p&gt;There are&#xA;&lt;strong&gt;60&lt;/strong&gt;&#xA;things that you can do with arrays.&lt;/p&gt;&#xA;&lt;p&gt;Here they are:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/array_img_1.png&#34; alt=&#34;60 dyalog APL symbols&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These are ALL of the things that you can do with arrays.&lt;/p&gt;&#xA;&lt;p&gt;This is the language APL. That stands for “A Programming Language.” The complete ungoogleability of that name wasn&amp;rsquo;t a problem at the time; it was proposed forty-odd years before google. These are not the letters of the language: these are its words.&lt;/p&gt;</description>
+      <guid>https://litonico.github.io/posts/arrays/</guid>
+      <description>&lt;p&gt;Here’s the thing about computers:&lt;/p&gt;&#xA;&lt;p&gt;There are&#xA;&lt;strong&gt;60&lt;/strong&gt;&#xA;things that you can do with arrays.&lt;/p&gt;&#xA;&lt;p&gt;Here they are:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://litonico.github.io/array_img_1.png&#34; alt=&#34;60 dyalog APL symbols&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;These are ALL of the things that you can do with arrays.&lt;/p&gt;&#xA;&lt;p&gt;This is the language APL. That stands for “A Programming Language.” The complete ungoogleability of that name wasn&amp;rsquo;t a problem at the time; it was proposed forty-odd years before google. These are not the letters of the language: these are its words.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
