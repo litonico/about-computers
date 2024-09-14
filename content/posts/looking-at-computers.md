@@ -67,7 +67,7 @@ He asked a friend in the Chemistry department—could I have some strong acid? S
 
 Now, HF is an acid so corrosive that it eats through glass. It is so poisonous that, should you get it on your skin, it will dissolve your bones. His friend refused him in what were implied to be strong terms. However, this friend suggested nitric acid, and passed some over.
 
-Nitric acid is not great either! Should you get it on your lab gloves as you're working, your gloves will catch on fire. If you're not wearing lab gloves (the recommended procedure at the time) it reacts with your hands, which is also unpleasant. But it's very, very good at dissolving the resin around a CPU. If you'd like, you can watch someone distill nitric acid here.
+Nitric acid is not great either! Should you get it on your lab gloves as you're working, your gloves will catch on fire. If you're not wearing lab gloves (the recommended procedure at the time) it reacts with your hands, which is also unpleasant. But it's very, very good at dissolving the resin around a CPU. If you'd like, you can watch someone distill nitric acid [here](https://www.youtube.com/watch?v=KBeo8nww21g).
 
 He went outside onto the university lawn on a sunny day in May. He dropped a gameboy CPU into a sample vial filled with nitric acid and lowered the vial into a pot of boiling water. The resin in the chip reacted with the acid, and nitrogen dioxide gas billowed up into the Illinois sky.
 
