@@ -14,11 +14,11 @@ Here's the thing about gameboys:
 
 ![Gameboy on a red background](/jbareham_gameboy.jpg)
 
-When a Nintendo Game Boy boots up, the Nintendo® logo scrolls down the screen. There's a little *ba-ding!* when it hits center screen. (If you've held a gameboy, the sound it makes is playing in your head right now. If not, you can listen to it [here](https://www.youtube.com/watch?v=3bCT3YxZfAY), to get in the mood.)
+When a Nintendo Game Boy boots up, the Nintendo® logo scrolls down the screen. There's a little _ba-ding!_ when it hits center screen. (If you've held a gameboy, the sound it makes is playing in your head right now. If not, you can listen to it [here](https://www.youtube.com/watch?v=3bCT3YxZfAY), to get in the mood.)
 
 You've put a game in your gameboy, so you then go on and play the game. But what I want to talk about first is the scroll and the sound and what happens right, right after.
 
-The routine that does the scroll and the _\*ba-ding!\*_ is encoded in the gameboy's ROM, its read-only memory. There's one dedicated little chip full of Z80 instructions inside the gameboy that does that. One chip, just for the scroll and the sound! After that small fanfare, the ROM will jump to the actual game you've put in.
+The routine that does the scroll and the _ba-ding!_ is encoded in the gameboy's ROM, its read-only memory. There's one dedicated little chip full of Z80 instructions inside the gameboy that does that. One chip, just for the scroll and the sound! After that small fanfare, the ROM will jump to the actual game you've put in.
 
 ___
 
@@ -32,7 +32,7 @@ Instead, it looks at a particular memory location in the game cartridge (say, Po
 
 When this bootrom finishes scrolling, it checks value-by-value that what was drawn on the screen is the Nintendo logo. If the logo was pixel-by-pixel identical to the one in the bootrom, the game will continue to boot. If the cart doesn't contain the Nintendo logo, the gameboy freezes. (It doesn't even `STOP`, in the language of hardware user manuals and programming guides. It just loops forever.)
 
-The ROM checks against the Nintendo logo because that logo is a trademark of Nintendo. To get the gameboy to run your game, you needed to put the actual bytes of an actual picture of the Nintendo logo in your game. And if you included the Nintendo logo in your cartridge, but weren't officially licensed by Nintendo, they could sue you for trademark infringement.
+The ROM checks against the Nintendo logo because that logo is a trademark of Nintendo. To get the gameboy to run your game, you needed to put the _actual bytes_ of an _actual picture_ of the Nintendo logo in your game. And if you included the Nintendo logo in your cartridge, but weren't officially licensed by Nintendo, they could sue you for trademark infringement.
 
 What a clever form of copy protection and content control! Nintendo didn't need to give you a secret key or anything; they had full control over which games got released. It's clever and kind of icky, in a way. It's the kind of solution you come up with if you have a huge legal department.
 
